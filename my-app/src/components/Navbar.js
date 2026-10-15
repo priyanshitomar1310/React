@@ -26,7 +26,7 @@ export default function Navbar(props) {
         </ul>
         <form className="hstack gap-2" role="search">
           <input className="form-control" type="search" placeholder="Search" aria-label="Search"/>
-          <button className="btn-solid btn-icon theme-secondary" type="submit">
+          <button className="btn-solid btn-icon theme-success" type="submit">
             <svg className="bi" width="16" height="16"><use href="#search" /></svg>
           </button>
         </form>
